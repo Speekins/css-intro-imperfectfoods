@@ -1,5 +1,68 @@
-/* FONT */
-/* font-family: 'Yanone Kaffeesatz', sans-serif; */
+* {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  background-color: #B4E4E6;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+  margin: 60px;
+  padding: 20px;
+  font-size: 50px;
+  font-weight: 400;
+  color: #453D3D;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+div > img {
+  width: 150px;
+  height: auto;
+}
+
+div > h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 0;
+  color: #453D3D;
+}
+
+div > p {
+  width: 90%;
+  padding-bottom: 30px;
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 1.5px;
+  color: #453D3D;
+}
+
+button {
+  margin-top: 50px;
+  padding: 15px 80px;
+  border-radius: 15px;
+  background-color: #B32274;
+  color: white;
+  font-size: 28px;
+  font-weight: 300;
+  border: 0;
+}
 
 /* COLORS */
 /* background color -> #B4E4E6 */
